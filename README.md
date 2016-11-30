@@ -20,8 +20,8 @@ $ bower install nylon-panel
 title กำหนดชื่อหัวข้อ 
 set-width กำหนดความกว้าง
 
-#function 
-#toggle open panel-right
-#close close panel-right
-#_setWidth set width for panel-right
+## function 
+toggle open panel-right
+close close panel-right
+_setWidth set width for panel-right
 
