@@ -85,7 +85,12 @@
                 this.customStyle['--app-drawer-width'] = this.setWidth;
                 this.updateStyles();
             },
+            open:function(){
+                document.documentElement.style.overflow = 'hidden';
+                this.$$('app-drawer').open();
+            },
             close:function(e){
+                document.documentElement.style.overflow = 'auto';
                 this.$$('app-drawer').close();
             },
             closeBgAppDrawer:function(e){
